@@ -1,7 +1,11 @@
 import { ImageResponse } from "next/og";
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
 
-export const size = { width: 64, height: 64 };
+export const size = { width: 512, height: 512 };
 export const contentType = "image/png";
+
+const markSrc = `data:image/png;base64,${readFileSync(join(process.cwd(), "public", "launch-mark.png")).toString("base64")}`;
 
 export default function Icon() {
   return new ImageResponse(
@@ -13,15 +17,19 @@ export default function Icon() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          background: "#000",
-          color: "#5AA9FF",
-          fontSize: 34,
-          fontWeight: 700,
-          border: "2px solid #5AA9FF",
-          borderRadius: 12,
+          background: "transparent",
+          padding: 18,
         }}
       >
-        T
+        <img
+          src={markSrc}
+          alt="Launch To Space"
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "contain",
+          }}
+        />
       </div>
     ),
     { ...size },
