@@ -27,10 +27,10 @@ const documents: Record<string, LegalDocument> = {
         <tr><td>Enquiry details</td><td>Name, organisation, email address and anything you write in a mission brief or contact form.</td></tr>
         <tr><td>Mission records</td><td>Payload descriptions, technical specifications, launch site preferences, correspondence and delivery addresses.</td></tr>
         <tr><td>Billing information</td><td>Invoicing details and transaction records. Card details are handled by our payment provider and never stored on our systems.</td></tr>
-        <tr><td>Website usage</td><td>Standard server logs, including IP address and browser type. The site sets no cookies and runs no analytics - see our <a href="/legal/cookie-policy">Cookie Policy</a>.</td></tr>
+        <tr><td>Website usage</td><td>Standard server logs, including IP address and browser type. The site sets no cookies and runs no analytics; see our <a href="/legal/cookie-policy">Cookie Policy</a>.</td></tr>
         <tr><td>Imagery</td><td>Photographs and video from missions, which may include people present at a launch or recovery site.</td></tr>
       </table>
-      <p>We do not knowingly collect data from children, and we do not collect special or sensitive categories of personal data unless you send it to us unprompted - please do not.</p>
+      <p>We do not knowingly collect data from children, and we do not collect special or sensitive categories of personal data unless you send it to us unprompted. Please do not.</p>
       <h2>3 &nbsp; Why we use it</h2>
       <ul>
         <li><strong>To answer enquiries and quote for missions.</strong> We cannot respond to a brief without processing what you send us.</li>
@@ -116,7 +116,7 @@ const documents: Record<string, LegalDocument> = {
       <h2>3 &nbsp; Accuracy of content</h2>
       <p>We keep this site accurate and current, but specifications, altitudes, durations and timelines describe typical missions and are not guarantees. Carrier dimensions and capacities are preliminary and are confirmed for each flight. Nothing on this site is an offer capable of acceptance; missions are contracted individually.</p>
       <h2>4 &nbsp; Claims about near space</h2>
-      <p>Launch To Space flies high-altitude balloons to roughly 30-35 km. This is the stratosphere - commonly described as <em>near space</em>. It is not outer space, which by international convention begins at the Karman line, 100 km. We describe our missions as near-space missions and ask that customers do the same in any material built on a flight with us.</p>
+      <p>Launch To Space flies high-altitude balloons to roughly 30-35 km. This is the stratosphere, commonly described as <em>near space</em>. It is not outer space, which by international convention begins at the Karman line, 100 km. We describe our missions as near-space missions and ask that customers do the same in any material built on a flight with us.</p>
       <h2>5 &nbsp; Regulatory position</h2>
       <p>ToSpace Private Limited does not hold a standing launch licence, and none is claimed anywhere on this site. Permissions are obtained flight by flight: before every launch we apply for the necessary No Objection Certificates from the relevant authorities and arrange the issue of a NOTAM covering the launch window and airspace involved.</p>
       <p>This means no mission is confirmed until its clearances are in place. Where a proposed site or window cannot be cleared, we will say so and work with you on an alternative. Flights remain subject to airspace clearance, site approval and weather on the day.</p>
@@ -135,7 +135,7 @@ const documents: Record<string, LegalDocument> = {
       <p class="updated">Last updated 22 August 2026</p>
       <p class="lede">These terms govern high-altitude balloon missions carried out by ToSpace Private Limited under the Launch To Space platform. They apply to every mission unless we agree something different in writing.</p>
       <h2>1 &nbsp; Definitions</h2>
-      <p><strong>We, us, our</strong> - ToSpace Private Limited. <strong>You, the customer</strong> - the person or organisation booking a mission. <strong>Payload</strong> - the item you supply to be flown. <strong>Mission</strong> - the planning, integration, launch, flight, recovery and content delivery for one flight. <strong>Content</strong> - photographs, video, telemetry and mission documentation produced by a flight.</p>
+      <p><strong>We, us, our</strong>: ToSpace Private Limited. <strong>You, the customer</strong>: the person or organisation booking a mission. <strong>Payload</strong>: the item you supply to be flown. <strong>Mission</strong>: the planning, integration, launch, flight, recovery and content delivery for one flight. <strong>Content</strong>: photographs, video, telemetry and mission documentation produced by a flight.</p>
       <h2>2 &nbsp; Booking and payment</h2>
       <ul>
         <li>A mission is confirmed when you accept our written quotation and pay the deposit stated in it.</li>
@@ -145,7 +145,7 @@ const documents: Record<string, LegalDocument> = {
       </ul>
       <h2>3 &nbsp; Your payload</h2>
       <p>You are responsible for the payload you supply. By sending it, you confirm that it is accurately described, that it is safe to fly, and that it does not breach any law or any third party's rights.</p>
-      <p>Payloads must meet the published requirements - currently a baseline of 2-5 kg within the standard carrier. The following cannot fly: explosives, pyrotechnics, flammable liquids, pressurised vessels, radioactive material, toxic or corrosive substances, live animals, damaged or non-compliant battery packs, and anything liable to shed debris or separate in flight.</p>
+      <p>Payloads must meet the published requirements, currently a baseline of 2-5 kg within the standard carrier. The following cannot fly: explosives, pyrotechnics, flammable liquids, pressurised vessels, radioactive material, toxic or corrosive substances, live animals, damaged or non-compliant battery packs, and anything liable to shed debris or separate in flight.</p>
       <p>Pharmaceutical, biological and other regulated materials may be flown only where the necessary separate clearances are in place; obtaining them is your responsibility unless we agree otherwise in writing.</p>
       <p>We inspect every payload on arrival and again at integration, and may refuse an item at either point on safety, regulatory or recovery grounds. Where we refuse, we will explain what would make it flyable.</p>
       <h2>4 &nbsp; Permissions, weather and abort</h2>
@@ -165,7 +165,7 @@ const documents: Record<string, LegalDocument> = {
       <p>We refund the deposit less costs already incurred on your mission. Those costs typically include the balloon and gas, permission applications, and any integration or bracket work already carried out. We will itemise them.</p>
       <h3>If you cancel 30 days or less before the scheduled launch</h3>
       <p>The deposit is not refunded in cash. Instead, <strong>80% of the deposit is held as a credit</strong> towards a future launch, and the remaining 20% is retained to cover costs already committed at that stage.</p>
-      <p>A credit may be applied to any mission booked at least one quarter in advance, and expires at the end of the financial year in which it was issued - 31 March - meaning the last date on which it can be applied to a booking is 31 December of that financial year. Where a cancellation falls close to that deadline and the credit would otherwise be worth little, we may extend it at our discretion; ask us.</p>
+      <p>A credit may be applied to any mission booked at least one quarter in advance, and expires at the end of the financial year in which it was issued, 31 March. The last date on which it can be applied to a booking is 31 December of that financial year. Where a cancellation falls close to that deadline and the credit would otherwise be worth little, we may extend it at our discretion; ask us.</p>
       <h3>If we cancel</h3>
       <p>Where we cancel for any reason other than weather, regulatory refusal or your breach of these terms, we refund everything you have paid in full.</p>
       <h2>9 &nbsp; Liability</h2>
@@ -216,7 +216,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       type: "article",
       url: `/legal/${slug}`,
       siteName: "Launch To Space",
-      title: `${document.title} - Launch To Space`,
+      title: `${document.title} | Launch To Space`,
       description: document.description,
       locale: "en_IN",
       images: [
@@ -230,7 +230,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     },
     twitter: {
       card: "summary_large_image",
-      title: `${document.title} - Launch To Space`,
+      title: `${document.title} | Launch To Space`,
       description: document.description,
       images: ["/opengraph-image"],
     },

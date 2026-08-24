@@ -5,16 +5,20 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://launch-to-space.vercel.app"),
   title: {
-    default: "Launch To Space - High-Altitude Balloon Missions | ToSpace",
+    default: "Launch To Space | High-Altitude Balloon Missions from India | ToSpace",
     template: "%s | Launch To Space",
   },
   description:
-    "Launch To Space by ToSpace provides high-altitude balloon missions from India for research payloads, technology demonstrations, education, product marketing and stratospheric content.",
+    "Launch To Space by ToSpace carries payloads to 30-35 km for research, technology demonstrations, education, commercial missions, product marketing and stratospheric content.",
   keywords: [
     "high altitude balloon India",
     "stratosphere mission",
     "near space payload",
     "space marketing India",
+    "high altitude balloon payload",
+    "stratospheric payload platform",
+    "near space missions India",
+    "product launch stratosphere",
     "ToSpace",
     "Launch To Space",
     "Tamil Nadu aerospace",
@@ -44,9 +48,9 @@ export const metadata: Metadata = {
     type: "website",
     url: "/",
     siteName: "Launch To Space",
-    title: "Launch To Space - High-Altitude Balloon Missions from India",
+    title: "Launch To Space | High-Altitude Balloon Missions from India",
     description:
-      "Affordable access to 30-35 km for research, technology demonstrations, education, brands and stratospheric content.",
+      "Carry payloads, experiments and products to 30-35 km with ToSpace's high-altitude balloon platform in India.",
     locale: "en_IN",
     images: [
       {
@@ -59,13 +63,17 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Launch To Space - High-Altitude Balloon Missions",
-    description: "Fly payloads, experiments and brand content to 30-35 km with ToSpace in India.",
+    title: "Launch To Space | High-Altitude Balloon Missions from India",
+    description: "Carry payloads, experiments and brand content to 30-35 km with ToSpace in India.",
     images: ["/opengraph-image"],
   },
   icons: {
-    icon: "/icon",
-    apple: "/icon",
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon.png", sizes: "512x512", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.png",
   },
   other: {
     "geo.region": "IN-TN",

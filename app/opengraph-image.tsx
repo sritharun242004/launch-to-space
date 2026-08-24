@@ -36,7 +36,7 @@ export default function OpenGraphImage() {
         />
         <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", width: 720 }}>
           <div style={{ color: "#5AA9FF", fontSize: 22, letterSpacing: 6, display: "flex" }}>
-            TOSPACE / INDIA / 30-35 KM
+              TOSPACE / INDIA / STRATOSPHERE
           </div>
           <div style={{ display: "flex", flexDirection: "column", gap: 18 }}>
             <div style={{ fontSize: 70, lineHeight: 1.02, fontWeight: 700, display: "flex" }}>
@@ -46,7 +46,7 @@ export default function OpenGraphImage() {
               Balloon Missions
             </div>
             <div style={{ color: "#C8D0D8", fontSize: 28, lineHeight: 1.35, display: "flex" }}>
-              Research, technology demonstrations, education and product marketing at the edge of space.
+              Payload flights for research, technology, education and product marketing at 30-35 km.
             </div>
           </div>
           <div style={{ color: "#8C949E", fontSize: 22, letterSpacing: 3, display: "flex" }}>
